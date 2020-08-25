@@ -1,2 +1,3 @@
 # AssignmentsAME494
-LJ McKenzies Assignments for AME494
+Lesford McKenzie (LJ)
+1215764940
