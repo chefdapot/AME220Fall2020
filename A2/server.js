@@ -3,11 +3,11 @@ var app = express();
 var bodyParser = require('body-parser');
 var errorHandler = require('errorhandler');
 var methodOverride = require('method-override');
-var hostname = process.env.HOSTNAME || '54.183.129.142';
+var hostname = process.env.HOSTNAME || 'localhost';
 var port = 1234;
 
 app.get("/", function (req, res) {
-    res.redirect("resume.html")
+    res.redirect("index.html")
 });
 
 app.use(methodOverride());
