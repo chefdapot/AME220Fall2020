@@ -24,8 +24,8 @@ function getTSInFormat(t)
 
 function getDataFromServer(){
 
-  var from;
-  var to;
+  var from = to - parseInt(document.getElementByID("duration").value) * 60 * 1000;
+  var to = new Date(document.getElementById("datetimeSelect").value).getTime();
 
 	var url = "./getData?from=" + from +"&to=" + to;
 	var callback = function(data){
